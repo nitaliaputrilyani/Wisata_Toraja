@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Toraja</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(219, 195, 213);">
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo">Wisata Toraja</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#ulasan">Ulasan</a>
+            <a href="#contact">Contact</a>
+            <a href="#ourteam">Our Team</a>
+            <li>
+            <a href="">Wisata</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="/html/wisata2.html">Wisata Area Toraja Utara</a>
+                <a class="dropdown-item" href="/html/Wisata1.html">Wisata Area Tana Toraja</a>
+              </div>
+            </li>
+            
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <h2 style="text-align: center; background-color: violet;">Pencarian Data</h2>
+    <form method="GET" action="hasil_pencarian.php" style="text-align: center;">
+        <label for="keyword" >Keyword:</label>
+        <input type="text" name="keyword" id="keyword">
+        <button type="submit">Cari</button>
+    </form>
+
+    <div class="login-form-container">
+        <i class="fas fa-time" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn" >
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forget Password? <a href="">click here</a></p>
+            <p>Don't have and account? <a href="">register now</a></p>
+        </form>
+    </div>
+
+    <div class="home" id="home">
+        <div class="content">
+            <h3>Selamat Datang Di Website</h3>
+            <p>Wisata Toraja</p>
+            <a href="/html/wisata1.html" class="btn">Telusuri</a>
+        </div>
+
+    <div class="video-container">
+        <video src="images/video1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+    </div>
+
+    <section class="packages" id="packages">
+        <h1 class="heading"  style="text-align: center; padding: 2rem; color: rgb(237, 58, 52); background-color: blanchedalmond;">
+            <span>R</span>
+            <span>E</span>
+            <span>K</span>
+            <span>O</span>
+            <span>M</span>
+            <span>E</span>
+            <span>N</span>
+            <span>D</span>
+            <span>A</span>
+            <span>S</span>
+            <span>I</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/ke'te'kesu'.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-maker-alt"></i> Ke'te Kesu'</h3>
+                    <p>Ke'te' kesu merupakan salah satu objek wisata yang ada di Toraja. Pemandangan utama yang akan disaksikan di kawasan ini adalah deretan rumah adat tongkonan yang berjejer rapi. Pengunjung juga akan menemukan peninggalan purbakala berupa kuburan batu yang berumur ratusan tahun.</p>
+                    <div class="price" style="font-size: 15px;">Rp. 15.000/orang</div>
+                    <a href="html/wisata_kuburan.html" class="btn">Detail</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img src="images/ollon.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-maker-alt"></i> Ollon</h3>
+                <p>Wisata Ollon merupakan hamparan bukit hijau terbentang luas. Wisata Ollon ini pas digunakan untuk tempat piknik atau camping bareng keluarga sambil membentangkan karpet atau tikar.</p>
+                <div class="price" style="font-size: 15px;">Rp. 20.000/orang</div>
+                <a href="html/wisata_alam.html" class="btn">Detail</a>
+            </div>
+        </div>
+
+    <div class="box">
+        <img src="images/limbong.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-maker-alt"></i> Danau Limbong</h3>
+            <p>Danau Limbong adalah salah satu objek wisata yang ada di Toraja Utara. Disini, pengunjung bisa berfoto-foto sembari menikmati suguhan alam yang asri. 
+                Tempat wisata ini bisa menjadi tempat tujuan refreshing dan healing.</p>
+            <div class="price" style="font-size: 15px;">Rp. 10.000 untuk wisatawan domestik dan Rp. 20.000 untuk wisatawan asing</div>
+            <a href="html/wisata_airterjun.html" class="btn">Detail</a>
+        </div>
+    </div>
+
+<div class="box">
+    <img src="images/bori.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-maker-alt"></i> Bori Kalimbuang</h3>
+        <p>Kalimbuang Bori merupakan tempat wisata yang berisi hamparan bebatuan besar mirip stonehenge di Inggris. Batu-batu besar atau menhir ini merupakan peninggalan zaman purba megalitikum. 
+            Tempat ini biasanya dijadikan tempat upacara adat pemakaman bagi para pemuka adat atau keluarga bengsawan tinggi yang meninggal.</p>
+        <div class="price" style="font-size: 15px;">Rp. 15.000/orang</div>
+        <a href="html/wisata_sejarah.html" class="btn">Detail</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="images/burake.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-maker-alt"></i> Burake</h3>
+        <p>Patung Yesus Buntu Burake ini memiliki ketinggian mencapai 40 meter, 
+            letaknya sendiri ada di atas bukit buntu burake dan menjadi ikon wisata Toraja yang tidak boleh dilewatkan.</p>
+        <div class="price" style="font-size: 15px;">Rp. 10.000/orang</div>
+        <a href="html/wisata_religi.html" class="btn">Detail</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="images/tilanga'.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-maker-alt"></i> Mata Air Tilanga'</h3>
+        <p>Mata Air Tilanga' tidak kalah menarik karena air yang sangat jernih dan menyuguhkan pesonanya yang begitu menawan. Destinasi ini memiliki mitos yang beredar hingga saat ini dimana konon katanya terdapat moa atau belut berkuping berwarna putih. 
+            Mitosnya belut tersebut dapat membawa keberuntungan.</p>
+        <div class="price" style="font-size: 15px;">Rp. 10.000/orang</div>
+        <a href="html/wisata_alam.html" class="btn">Detail</a>
+    </div>
+</div>
+<div class="button">
+<a href="/html/wisata1.html" class="btn">Next Page</a>
+</div>
+</div>
+    </section>    
+
+<section class="services" id="services">
+    <h1 class="heading" style="text-align: center; padding: 2rem; color: rgb(237, 58, 52); background-color: blanchedalmond;">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+                <h3>Hotels</h3>
+                <p>Hotel area toraja</p>
+                <a href="" class="btn">Lihat</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>Adat Istiadat</h3>
+                <p>Adat Istiadat Toraja</p>
+                <a href="adat.html" class="btn">Lihat</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>Makanan</h3>
+                <p>Makanan khas Toraja</p>
+                <a href="makanan.html" class="btn">Lihat</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe"></i>
+                <h3>Maps</h3>
+                <p>Google maps wisata Toraja</p>
+                <a href="maps.html" class="btn">Lihat</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3>Lokasi</h3>
+                <p>Lokasi Wisata toraja</p>
+        </div>
+    </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <h1 class="heading"  style="text-align: center; padding: 2rem; color: rgb(237, 58, 52); background-color: rgb(211, 141, 36);">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+<div class="box-container">
+    <div class="box">
+        <img src="images/alam1.jpg" alt="">
+        <div class="content">
+            <p>Wisata Alam</p>
+            <p>Toraja</p>
+            <a href="/html/wisata1/wisata_alam.html" class="btn">Lihat</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/burake.jpg" alt="">
+        <div class="content">
+            <p>Wisata Religi</p>
+            <p>Toraja</p>
+            <a href="/html/wisata1/wisata_religi.html" class="btn">Lihat</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/ke'te'kesu'.jpg" alt="">
+        <div class="content">
+            <p>Wisata Kuburan</p>
+            <p>Toraja</p>
+            <a href="/html/wisata1/wisata_kuburan.html" class="btn">Lihat</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/talando.jpg" alt="">
+        <div class="content">
+            <p>Wisata Air Terjun</p>
+            <p>Toraja</p>
+            <a href="/html/wisata1/wisata_airterjun.html" class="btn">Lihat</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/pallawa.jpg" alt="">
+        <div class="content">
+            <p>Wisata Tongkonan</p>
+            <p>Toraja</p>
+            <a href="/html/wisata_tongkonan.html" class="btn">Lihat</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/pallawa.jpg" alt="">
+        <div class="content">
+            <p>Wisata Sejarah</p>
+            <p>Toraja</p>
+            <a href="/html/wisata_sejarah.html" class="btn">Lihat</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<section class="ulasan" id="ulasan">
+    <h1 class="heading"  style="text-align: center; padding: 2rem; color: rgb(237, 58, 52); background-color: blanchedalmond;">
+        <span>U</span>
+        <span>l</span>
+        <span>a</span>
+        <span>s</span>
+        <span>a</span>
+        <span>n</span>
+    </h1>
+    <div class="swiper myswiper ulasan-slider">
+        <div class="swiper wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/org3.jpg" alt="">
+                    <h3>Nitalia</h3>
+                    <p>Website ini sangat bermanfaat dan mudah digunakan</p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="box">
+                    <img src="images/org1.jpg" alt="">
+                    <h3> Putri </h3>
+                    <p>Website ini bagus</p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="box">
+                    <img src="images/org2.jpg" alt="">
+                    <h3> Lyani</h3>
+                    <p>Website ini sangat menarik</p>
+                    <div class="stars">
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                        <i class="fas fa-stars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="heading"  style="text-align: center; padding: 2rem; color: rgb(237, 58, 52); background-color: blanchedalmond;">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <form action="">
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="message" cols="30" rows="10">
+            </textarea>
+            <button type="submit" class="btn" value="send message">Kirim</button>
+        </form>
+    </div>
+</section>
+
+<section class="ourteam" id="ourteam">
+    <h1 class="heading" style="text-align: center; padding: 2rem; color: rgb(237, 58, 52); background-color: blanchedalmond;">
+        <span>O</span>
+        <span>u</span>
+        <span>r</span>
+        <span>t</span>
+        <span>e</span>
+        <span>a</span>
+        <span>m</span>
+    </h1>
+    <div class="box-container" style="background-color: aqua;">
+        <div class="box" style="display: flex; color: blue;">
+            <div class="content">
+            <img style="border-radius: 50%; height: 50%; width: 80%; padding: 2rem;" src="images/org1.jpg" alt="">
+                <h1 style="text-align: center; font-size: 25px;">Nitalia Putri Lyani</h1>
+                <p style="text-align: center;">221611061</p>
+            </div><br>
+            <div class="content">
+            <img style="border-radius: 50%; height: 50%; width: 80%; padding: 2rem;" src="images/org2.jpg" alt="">
+                <h1 style="text-align: center; font-size: 25px;">Ijayanti Tappangan</h1>
+                <p style="text-align: center;">221611043</p>
+            </div>
+            <div class="content">
+            <img style="border-radius: 50%; height: 50%; width: 80%; padding: 2rem;" src="images/org3.jpg" alt="">
+                <h1 style="text-align: center; font-size: 25px;">Ernita batto'</h1>
+                <p style="text-align: center;">221611126</p>
+            </div>
+        </div>
+        <footer class="text-center text-light bg-dark p-2">
+            <p class="mt-3" style="background-color: aquamarine; text-align: center; height: 20%;">Copyright &copy; 2023 </p>
+        </footer>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+</body>
+</html>
